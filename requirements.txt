@@ -1,0 +1,2 @@
+recombee-api-client
+pandas
