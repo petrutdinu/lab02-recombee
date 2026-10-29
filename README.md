@@ -18,3 +18,9 @@ Din fișierul `books.csv` din goodbooks-10k de pe [Kaggle](https://www.kaggle.co
 | `language` | string | limba |
 | `average_rating` | double | rating ul mediu, de la 1 la 5 |
 | `ratings_count` | int | câte rating uri are |
+
+# Laborator 3: Sistem de recomandare cu Recombee - trimitere items
+
+Cu `recombee_items.py` am urcat toate cele 1000 de cărți în Recombee, în batch uri de câte 100. `book_id` e folosit ca `itemId`, iar valorile lipsă (anul sau limba la câteva cărți) sunt trimise goale. Itemii apar în Admin UI cu toate properties completate.
+
+![alt text](image.png)
